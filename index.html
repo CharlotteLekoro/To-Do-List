@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equi="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=poppin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdjn.cloudfare.com/ajax/libs/font-awesome/5.15/3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nulcSKlbmrpcLa0OT92x01BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link  rel="stylesheet" href="./style.CSS">
+    <title>ToDoList</title>
+
+</head>
+<body>
+    <h1>
+        My To Do List
+    </h1>
+
+    <form action="">
+        <input type="text" name="username" placeholder="Enter task"><br>
+        <input type="submit" class="todo-input">
+        <button class="todo-button" type="submit">
+         
+        </button>      
+        <div class="select">
+        <select name="todos" class="filter-todo">
+            <option value="all">All</option>
+            <option value="completed">Completed</option>
+            <option value="incomplete">Incomplete</option>
+        </select>
+        </div>
+    </form>
+
+    <div class="todo-container">
+        <ul class="ToDoList"></ul>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
